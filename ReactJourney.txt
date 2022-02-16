@@ -1,0 +1,17 @@
+React Journey
+
+- Props are nothing but the data passed to the component to use inside it.
+
+- Proptypes are used to validate if the data passed is of a fixed datatype, i.e. you can't pass a string, if you've specified your prop as a number; Like typescript
+i.e. (inside the component file)
+[ComponentName].propTypes = {
+    title: PropTypes.string,
+    about: PropTypes.number.isRequired // In order to compulsory pass it, we can use .isRequired
+}
+
+- Default Props - Default values, if props aren't passed.
+i.e. (inside the component file)
+[ComponentName].defaultProps = {
+    title: "Default title",
+    about: "Default About Text"
+}
