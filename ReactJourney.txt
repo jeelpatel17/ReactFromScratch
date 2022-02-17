@@ -15,3 +15,10 @@ i.e. (inside the component file)
     title: "Default title",
     about: "Default About Text"
 }
+
+- STATE 
+Used to change something or execute something over some data entered by the user
+It is used by importing {useState} from 'react'
+i.e.
+// Setting a default value
+const [data, changeData] = useState("My default data"); // This means that 'data' variable will be used to represent the data, and the 'changeData' will be used to change the data inside 'data'
