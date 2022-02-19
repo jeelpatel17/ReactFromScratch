@@ -1,6 +1,6 @@
 {
-  "short_name": "Jeel's App",
-  "name": "Jeel's React App",
+  "short_name": "Jeel's Notes",
+  "name": "Jeel's Notes - A Note taking app, specially built for Jeel Patel",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
