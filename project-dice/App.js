@@ -1,4 +1,5 @@
 import { Component } from "react";
+import RollDice from "./components/RollDice";
 import "./style.css";
 
 export default class App extends Component {
@@ -7,6 +8,10 @@ export default class App extends Component {
     this.state = {};
   }
   render() {
-    return <></>;
+    return (
+      <>
+        <RollDice />
+      </>
+    );
   }
 }

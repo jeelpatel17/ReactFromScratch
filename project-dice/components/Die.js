@@ -20,7 +20,7 @@ export default class Die extends Component {
     return (
       <i
         className={`fa-solid ${
-          this.props.rolling && "animate"
+          this.props.rolling ? "animate" : ""
         } dice mx-5 fa-dice-${this.getNum()}`}
       ></i>
     );
