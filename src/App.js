@@ -1,11 +1,10 @@
-import "./App.css";
+import CardContainer from "./components/CardContainer";
+import "./style.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Hello from Jeel's Notes!</h1>
-    </div>
+    <>
+      <CardContainer />
+    </>
   );
 }
-
-export default App;
