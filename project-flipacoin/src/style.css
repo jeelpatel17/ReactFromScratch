@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn:hover {
+  background-color: #520c85;
+}
+.animate {
+  animation: flip 1s ease;
+}
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg) scale(1);
+  }
+  50% {
+    transform: rotateX(900deg) scale(1.9);
+  }
+  100% {
+    transform: rotateX(1800deg) scale(1);
+  }
+}
